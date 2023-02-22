@@ -1,4 +1,5 @@
 #pragma once
 #include "common.h"
-struct road_act;
-class instruction;
+struct road_act{};
+
+class instruction{};

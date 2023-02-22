@@ -1,6 +1,8 @@
 #include "common.h"
 #include "motors.h"
 
+enum trafficlightstate {RED, ORANGE, GREEN};
+enum pedestrianstate {STOP, GO};
 class node{
   public:
     int node_position;
@@ -18,7 +20,7 @@ class road{
 };
 
 vector<vector<int>> test(){
-    return {{3,3}};
+    return {{6,3}};
 }
 
 bool check (vector<vector<float>> vec, int _square){ //CHECKED
