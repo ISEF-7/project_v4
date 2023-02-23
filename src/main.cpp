@@ -102,6 +102,7 @@ void LEDblink(int port, int delayms){
 void setup() {
   Serial.begin(9600);
   Serial.println(test()[0][0]);
+  vector<vector<float>> l_mtx_data = convert_f_TO_2d(div(file)[0]);
 }
 
 void loop() {

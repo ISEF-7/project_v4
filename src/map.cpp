@@ -75,31 +75,31 @@ float toFloat(string s, int base){ //CHECKED
     }
 }
 vector<vector<float>> convert_f_TO_2d(string str){  //CHECKED 
-  vector<vector<float>> rd;
-  int size=0;
-  bool size_def = false;
-  vector<float> push;
-  float minipush;
-  string stringdigits;
-  for (int i = 0;i<str.length();i++){
-    if (str[i] != ' ' && str[i] != '%'){
-      stringdigits.push_back(str[i]);
-    }
-    if (str[i] == ' '){
-      minipush = toFloat(stringdigits,10);
-      stringdigits = "";
-      push.push_back(minipush);
-      minipush = 0;
-    }
-    if (str[i] == '%'){
-      size = i + 1;
-      size_def = true;
-      rd.push_back(push);
-      push.clear();
-    }
-  }
-  if (check(rd, size) == true){return rd;}
-  //else{cout << "conv[f,r/a] err"; return;}
+  // vector<vector<float>> rd;
+  // int size=0;
+  // bool size_def = false;
+  // vector<float> push;
+  // float minipush;
+  // string stringdigits;
+  // for (int i = 0;i<str.length();i++){
+  //   if (str[i] != ' ' && str[i] != '%'){
+  //     stringdigits.push_back(str[i]);
+  //   }
+  //   if (str[i] == ' '){
+  //     minipush = toFloat(stringdigits,10);
+  //     stringdigits = "";
+  //     push.push_back(minipush);
+  //     minipush = 0;
+  //   }
+  //   if (str[i] == '%'){
+  //     size = i + 1;
+  //     size_def = true;
+  //     rd.push_back(push);
+  //     push.clear();
+  //   }
+  // }
+  // if (check(rd, size) == true){return rd;}
+  // //else{cout << "conv[f,r/a] err"; return;}
 }
 
 vector<float> convert_f_TO_1d(string str){ //CHECKED
