@@ -23,11 +23,11 @@ class Hub{
     const int Pin_m_1 = pin_m_1;
     const int Pin_m_2 = pin_m_2;
 
-    //const int width; TODO set
-    //const int length; TODO set
-    //const int mass; TODO set
-
-    //const int wheel_diamter; TODO set
+    const int width = 110; 
+    const int length = 150; 
+    const int heigh = 50; 
+    //const int mass = ; TODO set
+    const int wheel_diamter = 30;
 };
 
 void shutdown(Servo obj){
@@ -85,12 +85,12 @@ string file = "0 3.2 5.6%3.2 0 0%5.6 0 0%|0 30 0%30 0 0%0 0 0%|30 40 0%|";
 //TODO later add SD file reading
 //TODO init threading
 
-vector<vector<float>> l_mtx_data;
-vector<vector<float>> a_mtx_data;
-vector<vector<float>> r_mtx_data;
-vector<road_act> B;
-vector<instruction> MOTOR_1_INSTRUCTIONS;
-vector<instruction> MOTOR_2_INSTRUCTIONS;
+// vector<vector<float>> l_mtx_data;
+// vector<vector<float>> a_mtx_data;
+// vector<vector<float>> r_mtx_data;
+// vector<road_act> B;
+// vector<instruction> MOTOR_1_INSTRUCTIONS;
+// vector<instruction> MOTOR_2_INSTRUCTIONS;
 
 void LEDblink(int port, int delayms){
   digitalWrite(port, HIGH);
@@ -101,7 +101,7 @@ void LEDblink(int port, int delayms){
 
 void setup() {
   Serial.begin(9600);
-  Serial.println(test()[0][0]);
+  //Serial.println(test()[0][0]);
   vector<vector<float>> l_mtx_data = convert_f_TO_2d(div(file)[0]);
 }
 
