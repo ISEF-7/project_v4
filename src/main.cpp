@@ -1,15 +1,8 @@
-#include <Arduino.h>
-#include <ArduinoSTL.h>
-#include <Servo.h>
-#include <RPLidar.h>
-using namespace std;
-#define nameof(x) #x
-
-
+#include "common.h"
 Servo steer;
 Servo back;
 
-
+vector 
 
 void setup(){
     Serial.begin(9600);
