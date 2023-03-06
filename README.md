@@ -1,5 +1,5 @@
-<img width = "150px" src = "https://img.shields.io/github/repo-size/ISEF-7/project_v3?label=Project%20Size&logo=google%20drive"> <img width = "110px" src = "https://img.shields.io/github/languages/count/ISEF-7/project_v3?logo=C%2B%2B&logoColor=blue"> <img width = "110px" src = "https://img.shields.io/github/languages/top/ISEF-7/project_v3?label=C%2B%2B&logo=c%2B%2B&logoColor=blue">
-<img width = "100px" src = "https://img.shields.io/github/issues/ISEF-7/project_v3">
+<img width = "150px" src = "https://img.shields.io/github/repo-size/ISEF-7/project_v4?label=Project%20Size&logo=google%20drive"> <img width = "110px" src = "https://img.shields.io/github/languages/count/ISEF-7/project_v4?logo=C%2B%2B&logoColor=blue"> <img width = "110px" src = "https://img.shields.io/github/languages/top/ISEF-7/project_v4?label=C%2B%2B&logo=c%2B%2B&logoColor=blue">
+<img width = "100px" src = "https://img.shields.io/github/issues/ISEF-7/project_v4">
 # Developing Safe and Efficient Self-Driving Vehicles’ Operation through Sensor Data
 
 ## 🚉 Platform Tools
@@ -30,7 +30,7 @@
 
 ## ⚙️ Inner Workings
 
-![Inner Workings Logic Flow Chart](https://raw.githubusercontent.com/ISEF-7/project_v3/v3.1.1/images/fc.png?raw=true)
+![Inner Workings Logic Flow Chart](https://raw.githubusercontent.com/ISEF-7/project_v4/v3.1.1/images/fc.png?raw=true)
 
 ## ⚙️ Design
 ### Top
