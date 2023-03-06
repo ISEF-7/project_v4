@@ -75,31 +75,31 @@ float toFloat(string s, int base){ //CHECKED
     }
 }
 vector<vector<float>> convert_f_TO_2d(string str){  //CHECKED 
-  // vector<vector<float>> rd;
-  // int size=0;
-  // bool size_def = false;
-  // vector<float> push;
-  // float minipush;
-  // string stringdigits;
-  // for (int i = 0;i<str.length();i++){
-  //   if (str[i] != ' ' && str[i] != '%'){
-  //     stringdigits.push_back(str[i]);
-  //   }
-  //   if (str[i] == ' '){
-  //     minipush = toFloat(stringdigits,10);
-  //     stringdigits = "";
-  //     push.push_back(minipush);
-  //     minipush = 0;
-  //   }
-  //   if (str[i] == '%'){
-  //     size = i + 1;
-  //     size_def = true;
-  //     rd.push_back(push);
-  //     push.clear();
-  //   }
-  // }
-  // if (check(rd, size) == true){return rd;}
-  // //else{cout << "conv[f,r/a] err"; return;}
+  vector<vector<float>> rd;
+  int size=0;
+  bool size_def = false;
+  vector<float> push;
+  float minipush;
+  string stringdigits;
+  for (int i = 0;i<str.length();i++){
+    if (str[i] != ' ' && str[i] != '%'){
+      stringdigits.push_back(str[i]);
+    }
+    if (str[i] == ' '){
+      minipush = toFloat(stringdigits,10);
+      stringdigits = "";
+      push.push_back(minipush);
+      minipush = 0;
+    }
+    if (str[i] == '%'){
+      size = i + 1;
+      size_def = true;
+      rd.push_back(push);
+      push.clear();
+    }
+  }
+  if (check(rd, size) == true){return rd;}
+  //else{cout << "conv[f,r/a] err"; return;}
 }
 
 vector<float> convert_f_TO_1d(string str){ //CHECKED
@@ -120,26 +120,17 @@ vector<float> convert_f_TO_1d(string str){ //CHECKED
   //else{cout << "conv[f,s] err"; return ;}
 }
 vector<string> div(string str){ //CHECKED
-  int ind_a;
-  int ind_b;
-  int ind_c;
-  vector<string> ret_vec;
-  for(unsigned int i = 0; i<str.length();i++){
-    int count=0;
-    if(str.at(i) == '|'){
-      count++;
-      if (count == 1){
-        ind_a = i;
-      }
-      if (count == 2){
-        ind_b = i;
-      }
-      if (count == 3){
-        ind_c = i;
-      }
-    }
-  }
-  ret_vec = {str.substr(0,ind_a-1),str.substr(ind_a+1,ind_b-ind_a-1),str.substr(ind_b+1,ind_c-ind_a)};
+  int a = str.find("|");
+  int& _a = a;
+  cout <<_a <<endl;
+  int b = str.find("|",a+1);
+  int& _b = b;
+  cout <<_b <<endl;
+  int c = str.find("|",b+1);
+  int& _c = c;
+  cout <<_c <<endl;
+  //cout << testr.substr(3,5);
+  return {str.substr(0,_a),str.substr(_a+1,_b-_a-1),str.substr(_b+1,_c-_b-1)};
 }
 vector<road_act> shortestpath_algo(vector<vector<float>> l_mtx, vector<vector<float>> a_mtx, vector<float> s_mtx){
     //TODO shortestpath algorithm
