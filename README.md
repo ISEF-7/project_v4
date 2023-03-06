@@ -30,7 +30,7 @@
 
 ## ⚙️ Inner Workings
 
-![Inner Workings Logic Flow Chart](https://raw.githubusercontent.com/ISEF-7/project_v4/v3.1.1/images/fc.png?raw=true)
+![Inner Workings Logic Flow Chart](https://raw.githubusercontent.com/ISEF-7/project_v3/v3.1.1/images/fc.png?raw=true)
 
 ## ⚙️ Design
 ### Top
