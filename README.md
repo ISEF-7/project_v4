@@ -16,17 +16,17 @@
   - 48T gear
   - 9T gear
   - 13T gear 
-  - T gear
+  - 36T gear
 
 ## 🛠️ Dependencies 
 
 - Arduino 
-<!-- - [ArduinoSTL@^1.3.3](//https://registry.platformio.org/libraries/mike-matera/ArduinoSTL)
-- [ArduinoJson@^6.19.4](https://registry.platformio.org/libraries/bblanchon/ArduinoJson)
+- [ArduinoSTL@^1.3.3](//https://registry.platformio.org/libraries/mike-matera/ArduinoSTL)
+<!-- - [ArduinoJson@^6.19.4](https://registry.platformio.org/libraries/bblanchon/ArduinoJson)
 - [Thread@^0.0.0-alpha+sha.dac3874d28](https://registry.platformio.org/libraries/ivanseidel/Thread)
-- [RPLidar](https://github.com/robopeak/rplidar_arduino) (Seemingly only available in GitHub and not in the PlatformIO Library Registry)
+- [RPLidar](https://github.com/robopeak/rplidar_arduino) (Seemingly only available in GitHub and not in the PlatformIO Library Registry) -->
 - [Servo@^1.1.8](https://registry.platformio.org/libraries/arduino-libraries/Servo)
-- [SdFat@^2.2.0](https://registry.platformio.org/libraries/greiman/SdFat)
+<!-- - [SdFat@^2.2.0](https://registry.platformio.org/libraries/greiman/SdFat)
 - [LinkedLists@^0.0.0-alpha+sha.dac3874d28](https://registry.platformio.org/libraries/ivanseidel/LinkedList) -->
 
 ## ⚙️ Inner Workings

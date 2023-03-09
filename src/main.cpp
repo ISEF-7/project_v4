@@ -4,19 +4,11 @@ Servo back;
 
 
 void setup(){
-    back.write(86); //optimal 92 - pulse 
+    back.write(70); //makes the back wheels spin at a relatively slow rate
     Serial.begin(9600);
     back.attach(9); //48,9
     steer.attach(8); //13
-    
-    // road_act test = {
-    //     3,
-    //     50,
-    //     30
-    // };
-    // vector<road_act> test_vec;
-    // test_vec.push_back(test);
-    // vector<instruction> _test = m1(test_vec,steer);
+    steer.write(steer.read()+10); //makes a steer at 10 degrees to the right
 }
 void loop(){
 }
