@@ -41,7 +41,7 @@
 
 ### Final Product
 
-
+![IMG_6212-min](https://user-images.githubusercontent.com/85592265/224009690-5fbd3766-b52b-4b02-87ff-cd412b3825bf.png)
 
 ### Slow and Steady Program
 
@@ -50,5 +50,3 @@ https://user-images.githubusercontent.com/85592265/224006052-a075c7ef-23c8-491d-
 ### Burst of Speed Program
 
 https://user-images.githubusercontent.com/85592265/224005955-d8030bf5-305e-476b-a8aa-4c9b39420e06.MOV
-
-
