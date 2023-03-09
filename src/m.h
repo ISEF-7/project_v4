@@ -1,4 +1,6 @@
+#pragma once
 #include "common.h"
+
 struct road_act{
     float l;
     float next_turndeg;
@@ -11,3 +13,5 @@ class instruction{
         float w;
         float t;
 };
+
+vector<instruction> m1(vector<road_act> d, Servo w);
