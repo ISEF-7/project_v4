@@ -39,11 +39,16 @@
 ### Side
 ![IMG_5542 (1)](https://user-images.githubusercontent.com/85592265/211177223-9f6d3650-2592-460a-962b-a5ca10fe46c6.png)
 
+### Final Product
 
+
+
+### Slow and Steady Program
 
 https://user-images.githubusercontent.com/85592265/224006052-a075c7ef-23c8-491d-b990-b01c195fa1d4.MOV
 
-
+### Burst of Speed Program
 
 https://user-images.githubusercontent.com/85592265/224005955-d8030bf5-305e-476b-a8aa-4c9b39420e06.MOV
+
 
