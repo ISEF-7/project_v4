@@ -4,7 +4,7 @@ Servo back;
 
 
 void setup(){
-    back.write(94); //makes the back wheels spin at a relatively slow rate
+    back.write(92); //makes the back wheels spin at a relatively slow rate
     Serial.begin(9600);
     back.attach(9); //48,9
     steer.attach(8); //13
